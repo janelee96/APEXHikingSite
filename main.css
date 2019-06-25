@@ -1,0 +1,156 @@
+body{
+	margin:0;
+	font:100%/1.4 georgia, serif;
+	background-color:#5A785D;
+}
+
+#wrap{
+	margin:0 auto;
+	width:90%;
+	background:#fff;
+}
+
+#wrap img[src="images/apexlogo.jpg"]{
+	width:100%;
+	margin-top:25px;
+}
+
+nav{
+	width:80%;
+	margin:40px auto;
+	text-align:center;
+}
+
+nav ul{
+	padding:0;
+}
+
+nav li{
+	list-style-type:none;
+	float:left;
+}
+
+nav a{
+	display:block;
+	width:5em;
+	padding:2em 2em;
+	border-radius: 50px 0px 50px 0;
+	margin:0 0.5em;
+	color:#fff;
+	font:600 1.2em raleway, arial, sans-serif;
+	text-decoration:none;
+	opacity:0.75;
+	
+	-webkit-transition:all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+nav a:hover{
+	opacity:1;
+	border-radius:0 50px 0 50px;
+}
+
+a[href="index.html"]{
+	background-color:#62503C;
+}
+
+a[href="mens.html"]{
+	background-color:#876847;
+}
+
+a[href="womens.html"]{
+	background-color:#E48721;
+}
+
+a[href="gear.html"]{
+	background-color:#AC7334;
+}
+
+section{
+	padding:1em;
+}
+
+section h1{
+	font:3em raleway;
+	color:#62503C;
+	text-shadow:1px 1px 2px #1D1D1D;
+	margin-bottom:0;
+}
+
+aside{
+	position:fixed;
+	bottom:50px;
+	left:-260px;
+	z-index:1;
+	text-align:right;
+}
+
+aside a{
+	display:block;
+	width:300px;
+	padding-top:25px;
+	height:60px;
+	text-transform:uppercase;
+	background:rgba(166, 163, 104, 0.9);
+	font:700 18px raleway, Arial, sans-serif;
+	color:white;
+	border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    transition: all 0.5s ease;
+	
+}
+
+aside a:hover{
+	-webkit-transform:translate(250px);
+    -moz-transform: translate(250px);
+    -o-transform: translate(250px);
+    -ms-transform: translate(250px);
+    transform: translate(250px);
+}
+
+aside img{
+	vertical-align: middle;
+}
+
+section li{
+	float:left;
+}
+
+section ul{
+	list-style:none;
+	padding:0;
+}
+
+section li img{
+	box-shadow:2px 2px 3px #333;
+	border:10px solid #fff;
+	margin-top:1em;
+	margin-right:2em;
+}
+
+section p{
+	clear:both;
+}
+
+#rotateleft{
+	margin:0 2em;
+	-webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+#rotateright{
+	margin:0 2em 2em 2em;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+	
+}
+
+	
+	
+	
